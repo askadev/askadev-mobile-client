@@ -24,7 +24,7 @@ class _AnimatedLogoWidget extends State<AnimatedLogoWidget>
   initState() {
     super.initState();
     controller = new AnimationController(
-        duration: const Duration(milliseconds: 2000), vsync: this);
+        duration: const Duration(milliseconds: 1500), vsync: this);
     animation = new CurvedAnimation(parent: controller, curve: Curves.easeIn)
       ..addListener(() {
         setState(() {
